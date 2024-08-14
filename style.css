@@ -183,11 +183,13 @@ a {
   gap: 10px;
 }
 .projects {
-  border: 2px solid rgb(163, 56, 56);
+  display: grid;
+  grid-template-rows: 1fr 30fr;
 }
-
+.project-heading {
+  margin-left: 22px;
+}
 .shown-project {
-  border: 2px solid black;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
